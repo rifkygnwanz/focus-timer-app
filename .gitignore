@@ -1,0 +1,41 @@
+# Xcode
+## User settings & workspace state
+xcuserdata/
+*.xcscmblueprint
+*.xcuserstate
+project.xcworkspace/xcuserdata/
+*.xcuserdatad
+
+## Build generated
+build/
+DerivedData/
+*.moved-aside
+*.ipa
+*.app
+*.dSYM.zip
+*.dSYM
+
+# Swift Package Manager
+.build/
+Packages/*/.build/
+Packages/*/.swiftpm/xcode/xcuserdata/
+.swiftpm/xcode/xcuserdata/
+
+# macOS system files
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+.Spotlight-V100
+.Trashes
+
+# Editor & temporary
+*.swp
+*.swo
+*~
+*.orig
+.idea/
+*.vscode/
+
+# Local scratches
+scratch/
